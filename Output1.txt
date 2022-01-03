@@ -1,0 +1,12 @@
+/**
+ * Asia Lewis
+ * September 3, 2021 
+ * Data Structure and Algorithms
+ * Unit 1 Assignment Console Output
+ */
+The letter i appears 2 times
+The letter o appears 0 times
+The letter e appears 4 times
+The letter a appears 5 times
+The letter u appears 1 times
+Total number of vowels: 14
