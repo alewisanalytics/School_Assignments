@@ -11,31 +11,31 @@ public class AlgorithmComparison
 
 	{ 
 	
-
-	Date current = new Date(); // Get current time
-		long startTime = current.getTime();
 		//Algorithm A
+		Date current = new Date(); // Get current time
+		long startTime = current.getTime();
+		
 				long sum = 0;
 			 	long n = 40000;
-				for (long i = 1; i <= n; i++);
+				for (long i = 1; i <= n; i++)
 				{
 					long i = 0;
 					sum = sum + i;
 			
 
-			}
+			}//end for loop
 			
 
 		current = new Date(); // Get current time
 		long stopTime = current.getTime();
 		long elapsedTime = stopTime - startTime; // Milliseconds	
-	
+		//end Algorithm A
 
 	
-
+		//Algorithm B
 		Date current1 = new Date(); // Get current time
 		long startTime1 = current1.getTime();
-		//Algorithm B
+		
 		sum = 0;
 		long n1 = 40000;
 		for (long i1 = 1; i1 <= n1; i1++)
@@ -43,20 +43,20 @@ public class AlgorithmComparison
 			for (long j = i1; j <= i1; j++)
 			{
 				sum = sum + 1 ;
-			}
-		}
+			}//end for loop
+		}//end for loop
 		current1 = new Date(); // Get current time
 		long stopTime1 = current1.getTime();
 		long elapsedTime1 = stopTime1 - startTime1; // Milliseconds
-		
+		//end Algorithm B
 
 
 		
-
+		//Algorithm C
 		Date current2 = new Date(); // Get current time
 		long startTime2 = current2.getTime();
 	    int n2 = 40000;
-		//Algorithm C
+		
 		sum = n2 * (n2 + 1 ) / 2;
 		
 
