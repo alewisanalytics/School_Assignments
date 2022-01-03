@@ -1,0 +1,21 @@
+/**
+ * Asia Lewis
+ * November 14, 2021 
+ * Data Structure and Algorithms
+ * Unit 9 Assignment Output File
+ */
+
+You have no friends in your friends list.
+
+This person is at the front of your list: Sarah Lee
+This person is at the back of your list: Manisha Johnson
+
+You now have friends in your friends list.
+This person is at the front of your list: Sarah Lee
+This person is at the back of your list: Manisha Johnson
+
+This person is at the front of your list: Britney Parker
+This person is at the back of your list: Joe Bino
+Now, you have no friends in your friends list.
+
+Cannot display front or end of friends list. You're list is empty.
